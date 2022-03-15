@@ -1,0 +1,8 @@
+tasks:
+  - name: install flask
+    init: echo 'Install Flask'
+    command: pip install Flask
+
+ports:
+  - port: 3000
+    onOpen: open-preview
